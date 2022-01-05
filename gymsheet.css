@@ -1,0 +1,93 @@
+body{
+    font-family: cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('images/workkout.jpg');
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+   /* border: 2px solid white;*/
+    font-size: 21px;
+    line-height: 3px;
+    text-align: center;
+}
+.left img{
+    width: 74px;
+    filter: invert(100%);
+
+}
+.mid{
+    display: block;
+    width: 53%;
+    margin: 20px auto;
+   /* border: 2px solid red;*/
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+   /* border: 2px solid green;*/
+}
+
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size :25px; 
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+.navbar li a:hover  ,  .navbar li a.active {
+    
+   text-decoration: underline;
+   color: grey;
+
+}
+.btn{
+    margin:4px 9px;
+    padding: 15px 24px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.btn:hover{
+    background-color: red;
+}
+.container{
+    border:2px solid white;
+    margin:204px  315px;
+    padding: 32px 131px;
+    border-radius: 32px;
+    height: 500px;
+   
+}
+.form-group input{
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    width: 190px;
+    margin: 20px auto;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+.form-group td{
+    font-size: 19px;
+}
